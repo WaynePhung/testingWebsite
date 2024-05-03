@@ -1,0 +1,68 @@
+<!--
+    File name: "index.html"
+    This file MUST be named "index.html".
+    No changes to the name should be allowed unless otherwise.
+    This is because this file serves as the skeleton structure for the default landing page.
+-->
+
+<!-- MUST include the DOCTYPE and html tags to ensure the browser properly interprets this as a HTML to render on the webpage. -->
+<!DOCTYPE html>
+<html lang="en">
+    
+<!--
+    Head tag: 
+    Organizes metadata information of the HTML document, 
+    such as character sets, scripts, stylesheets, 
+    and other types of metadata.
+-->
+<head>
+    <!--Required meta tags.-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="YW010u-P5MrmISRhz9cNTTidPTJ2B472v_yUcW71SSs" />
+    <meta name="description" content="Wayne Phung's Portfolio">
+    <link rel="stylesheet" href="02-css/testingWebsite.css" type="text/css">
+
+    <!--Image representative of this page's browser tab.-->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="01-other-images/favicon.ico"> -->
+
+    <!--Title of webpage, shown as text in a browser tab.-->
+    <title>Testing Website</title>
+
+</head>
+
+<!--
+    body tag: Specifies all elements of the HTML document. 
+    This is the content that a person should only see and interact with in a webpage.
+-->
+<body role="document" aria-label="html webpage content">
+    <!--
+        header tag: Specifies top portion of the page. 
+        This would contain the main navigation links and a call-to-action buttons.
+    -->
+    <header role="banner" aria-label="navigation links">
+    </header>
+
+    <!-- main tag: Contains the majority of scrollable content, including headings, body text, images, and videos. Not the footer however. -->
+    <main>
+        <section>
+            <!-- Heading -->
+            <h1>Testing Website</h1>
+        </section>
+        <section class="content">
+            <p>Random text.</p>
+        </section>
+    </main>
+
+    <!-- footer tag: Mainly used to display two buttons linking to my LinkedIn page and email.-->
+    <footer>
+    </footer>
+    <!--END of main content for body.-->
+
+    <!--All script files linked below here. Generally best practice to load these after the metadata and HTML content. Script tags should also be placed before the closing body tag.-->
+    <script nonce="wwa0gx65d93mtk023bhz" src="03-js/jquery-3.6.1.min.js"></script><!--Current version of jQuery used (3.6.0, minified/production-ready).-->
+    <script nonce="wwa0gx65d93mtk023bhz" src="03-js/jquery.mobile-1.5.0-rc1.min.js"></script><!--Archived version of jQuery mobile (1.5.0-rc1, minified/production-ready).-->
+</body>
+</html>
